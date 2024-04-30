@@ -30,7 +30,7 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone https://github.com/your-username/cft-calculator.git
    ```
- #OR
+##OR
 
  Just Download the Zip and archive it.
  
