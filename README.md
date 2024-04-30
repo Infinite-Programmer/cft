@@ -29,9 +29,9 @@ To get a local copy up and running, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/cft-calculator.git
-   
-<center>
-                           <h1>OR</h1> 
-  </center>
+   ```
+ #OR
+
  Just Download the Zip and archive it.
+ 
 2. Open the `index.html`
