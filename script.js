@@ -1,4 +1,6 @@
-document.getElementById("calculateButton").addEventListener("click", function() {
+document
+  .getElementById("calculateButton")
+  .addEventListener("click", function () {
     var width = parseFloat(document.getElementById("width").value);
     var thickness = parseFloat(document.getElementById("thickness").value);
     var length = parseFloat(document.getElementById("length").value);
@@ -11,7 +13,7 @@ document.getElementById("calculateButton").addEventListener("click", function() 
     var volumeOneUnit = widthFeet * thicknessFeet * lengthFeet;
 
     var totalVolume = volumeOneUnit * quantity;
-
-    // Display result
-    document.getElementById("result").innerHTML = "CFT: " + totalVolume.toFixed(2) + " CFT";
-});
+    
+    document.getElementById("result").innerHTML =
+      "CFT: " + totalVolume.toFixed(2) + " CFT";
+  });
